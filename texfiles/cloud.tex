@@ -1,0 +1,44 @@
+\section{Load, Performance and Stress Cloud Testing}
+
+
+Cloud computing alters the way of obtaining computing resources, managing and delivering software, technologies and solutions. Meanwhile, cloud computing also brings new issues, challenges, and needs in cloud-based application testing and evaluation. In the past decades, there were numerous published technical papers focusing on scalability analysis and performance evaluation. 
+
+The presented research work found one systematic review on cloud software testing:
+
+
+\begin{itemize}
+\item 5W+1H pattern: A perspective of systematic mapping studies and a case study on cloud software testing \cite{Jia2015}.
+\end{itemize}
+
+The Figure \ref{fig:surveycloud}  shows a comparison between the  researches found in the presented research work. The x axis represents the kind of cloud used ( SaaS, PaaS  or IaaS )  and the y axis presents the type of workload strategy used by each research (Generativive or Descriptive Workload). The Figure also divides the researches by the type technique used in each paper.
+
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.5\textwidth]{./images/SurveyFiguraCloud3.png}
+\caption{Distribution of the researches over kind of cloud}
+\label{fig:surveycloud}
+\end{figure}
+
+
+
+\subsection{Papers found in the presented research work}
+
+This subsection presents details about the papers found in the presented research work.
+
+Gao et. al. proposes  a new formal graphic models and metrics to test SaaS performance and analyze system scalability in clouds. This paper presents a analytic models in a radar chart graphic format to evaluation for system performance and scalability of SaaS applications in a cloud.  The paper consider three types of system loads\cite{Gao2011}.
+
+\begin{itemize}
+\item The communication traffic load:  The amount of incoming and outgoing communication messages and transactions in a given time unit during system performance and evaluation.
+\item The system user access load during:The number of concurrent users who access the system in a given time unit.
+\item The system data load: the underlying
+system data store access load, such as the number of data
+store access, and data storage sizing.
+\end{itemize}
+
+
+Snellman et. al. propose the ASTORIA framework to identify problems using Record and Playback User Actions. The ASTORIA is a framework for automatic performance and scalability testing of Rich Internet Applications.\cite{Snellman2011}.
+
+Tsai et. al. propose scalability metrics that can be used to test the scalability of SaaS applications.
+
+Jayasinghe presents Expertus, a tool to automate large scale distributed experiment studies in IaaS clouds. The Expertus have the goal of addressing three challenges discussed in Section II.

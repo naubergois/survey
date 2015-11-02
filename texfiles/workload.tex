@@ -1,0 +1,25 @@
+\section{WorkLoad Model}
+
+Load, Performance or Stress testing projects should start with the development of a model for user workload that an application receives. This should take into consideration various performance aspects of the application and the infrastructure that a given workload will impact. A workload is a key component of such a model.
+
+The term Workload represents  the size of the demand that will be imposed on the application under test in an execution. The metric unit used for define a Workload is dependent on the application domain, such as the length of the video in a transcoding application of multimedia files or the size of the input files to a file compression application \cite{Feitelson2013} \cite{Molyneaux2009} \cite{Goncalves2014}. 
+
+Workload is also defined by the distribution of load between the identified transactions at a given time. Workload helps us study the system behavior identified in several load model. Workload model can be designed for verify predictability, repeatability and scalability of a system \cite{Feitelson2013} \cite{Molyneaux2009}.
+
+
+Workload modeling is the try to create a simple and general model, which can
+then be used to generate synthetic workloads. The goal is typically to be able to create workloads that can
+be used in performance evaluation studies. Sometimes, the synthetic workload is supposed to be
+similar to those that occur in practice on real systems \cite{Feitelson2013} \cite{Molyneaux2009}.
+
+There are two kinds of Workload models: descriptive and generative. The difference is that descriptive models just try to mimic the phenomena observed in the workload, whereas generative models try to emulate the process that generated the workload in the first place \cite{DiLucca2006}. 
+
+On descriptive models, one finds different levels of abstraction on one hand, and different levels of faithfulness to the original data on the other hand. The
+most strictly faithful models try to mimic the data directly using statistical distribution of data.  Descriptive models are applied to all the workload attributes, e.g. computation, memory usage, I/O behavior, communication, etc \cite{DiLucca2006}. 
+
+Generative models are indirect, in the sense that they do not model the statistical distributions. Instead, they describes how users will behave and when they generate the workload. An important benefit of the generative approach is
+that it facilitates manipulations of the workload. It is often desirable to be able to change the workload conditions as part of the evaluation. Descriptive models do not offer any option regarding how to do so. But with generative models, we can modify the workload-generation process to fit the desired conditions \cite{DiLucca2006}. The difference between the descriptive and generative models is that user behavior is not collected from logs, but simulated from a model that can receive feedback from the test execution.
+% * <naubergois@gmail.com> 2015-09-17T00:36:43.958Z:
+%
+%  Olhar but no começo da frase
+%

@@ -1,0 +1,59 @@
+\section{Load, Performance and Stress Workload: A Brief Introducion}
+
+The term Workload represents  the size of the demand that will be imposed on the application under test in an execution. The metric unit used for define a Workload is dependent on the application domain, such as the length of the video in a transcoding application of multimedia files or the size of the input files to a file compression application \cite{Feitelson2013} \cite{Molyneaux2009} \cite{Goncalves2014}. 
+
+Workload is also defined by the distribution of load between the identified transactions at a given time. Workload helps us study the system behavior identified in several load model. Workload model can be designed for verify predictability, repeatability and scalability of a system \cite{Feitelson2013} \cite{Molyneaux2009}.
+
+
+Workload modeling is the try to create a simple and general model, which can
+then be used to generate synthetic workloads. The goal is typically to be able to create workloads that can
+be used in performance evaluation studies. Sometimes, the synthetic workload is supposed to be
+similar to those that occur in practice on real systems \cite{Feitelson2013} \cite{Molyneaux2009}.
+
+
+The workload model is intrinsically linked with the kind of test applied. There are three main tests where these models are usually used: 
+
+
+\subsection{Performance Testing}
+
+The Performance Test aims at verifying a specified system performance. This kind of test is executed by simulating hundreds or more simultaneous users  over a defined time interval \cite{DiLucca2006}. The purpose of this test is to demonstrate that the system  reaches its performance objectives \cite{Sandler2004}. Other objectives of the performance tests are: Evaluate the adequacy of current capacity	
+
+
+
+\subsection{Load Testing}
+
+Load Tests are a kind of test where the system is evaluated in pre-defined load levels \cite{DiLucca2006}. The aim of this test is to reach the performance targets for availability, concurrency, throughput and response time of the system. Load Test is the closest test to real application use \cite{Molyneaux2009}.
+
+\subsection{Stress Testing}
+
+Stress test is a kind of test that verifies the system behaviour against heavy workloads \cite{Sandler2004}. The Stress Testing is executed to evaluate a system beyond its limits. It's used to validate system response in activity peaks and verify if the system is able from recover from these conditions. Stress Tests differs from other kinds of testing  because the system is executed on or beyond its breakpoints. The stress test causes the application or the supporting infrastructure to fail \cite{DiLucca2006} \cite{Molyneaux2009}.
+
+
+
+There are two kinds of Workload models: descriptive and generative. The difference is that descriptive models just try to mimic the phenomena observed in the workload, whereas generative models try to emulate the process that generated the workload in the first place \cite{DiLucca2006}. 
+
+\subsection{Descriptive Model}
+
+On descriptive models, one finds different levels of abstraction on one hand, and different levels of faithfulness to the original data on the other hand. The
+most strictly faithful models try to mimic the data directly using statistical distribution of data. The most common strategy used in descriptive modeling is to create a statistical
+model of an observed workload (Fig. \ref{fig:descriptivemodel}). This model is applied to all the workload
+attributes, e.g. computation, memory usage, I/O behavior, communication, etc \cite{DiLucca2006}. The Fig. \ref{fig:descriptivemodel} shows a simplified workflow of a descriptive model. The workflow has six phases. In first phase, the user uses the system in the production environment. In second phase, the tester collects user's data, like logs, clicks and preferences, in the system . The third phase consists in developing a model to emulate the user's behaviour. The fourth phase is made up of the execution of the test, emulation of the user's behaviour and log's gathering.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.5\textwidth]{./images/workloadmodel1.png}
+\caption{Workload modeling based on statistical data \cite{DiLucca2006}}
+\label{fig:descriptivemodel}
+\end{figure}
+
+\subsection{Generative Model}
+
+Generative models are indirect, in the sense that they do not model the statistical distributions. Instead, they describes how users will behave and when they generate the workload. An important benefit of the generative approach is
+that it facilitates manipulations of the workload. It is often desirable to be able to change the workload conditions as part of the evaluation. Descriptive models do not offer any option regarding how to do so. But with generative models, we can modify the workload-generation process to fit the desired conditions \cite{DiLucca2006}. The difference between the workflows of descriptive and generative models is that user behavior is not collected from logs, but simulated from a model that can receive feedback from the test execution (Fig. \ref{fig:generativemodel}).
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.5\textwidth]{./images/workloadmodel2.png}
+\caption{Workload modeling based on Generative Model \cite{DiLucca2006}}
+\label{fig:generativemodel}
+\end{figure}

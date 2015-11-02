@@ -1,0 +1,103 @@
+\section{IAdapter}
+
+IAdapter is a JMeter Plugin to perform evolutionary load, performance or stress tests. JMeter is a desktop application, designed to test and measure the performance and functional behavior of applications \cite{Nevedrov2007}.
+
+The IAdapter plugin makes it possible to create a generative model that evolves during the test. The IAdapter model uses metaheuristic algorithms with three goals:
+
+\begin{itemize}
+\item find test scenarios with service level service limits;
+\item find test scenarios that show performance errors;
+\item automate the performance test execution;
+\end{itemize}
+
+In this section, We presents details about the use of Metaheuristcs algorithms( objective (fitnesse) , initial population and genotype representation) and IAdapter Components.
+
+\subsection{Use of MetaHeuristics Algorithms}
+
+The plugin uses Genetic Algorithms, Simulated Annealing and TABU Search algorithms in two different approaches. The first approach uses the three algorithms independently. The second approach uses the three algorithms collaboratively (Hybrid Metaheuristic approach).
+
+In the first approach , the algorithms do not share their best individuals among themselves. Each algorithm evolves in a separate way (Fig. \ref{fig:firstaproach}). The second approach use the algorithms in a collaborative mode (Hybrid Metaheuristic). In this approach, the three algorithms share their best individuals found (Fig. \ref{fig:secondapproach} ).
+
+\begin{figure}[h]
+\caption{Use of the algorithms independently}
+\includegraphics[width=0.5\textwidth]{./images/independ.png}
+\label{fig:firstaproach}
+\end{figure}
+\begin{figure}
+\caption{Second approach of use combinatorial optimization algorithms}
+\includegraphics[width=0.5\textwidth]{./images/collaborative.png}
+\label{fig:secondapproach}
+\end{figure}
+
+\subsubsection{Initial population}
+
+The strategy use by the plugin to instantiate the initial population is to generate 50\% of the individuals randomically and 50\% of the initial population are distributed in three  ranges of values:
+
+\begin{itemize}
+\item 30\% of the maximum allowed users in the test ;
+\item 60\% of the maximum allowed users in the test; and
+\item 90\% of the maximum allowed users in the test.
+\end{itemize}
+
+
+\subsubsection{Genotype representation}
+
+The Genotype representation is composed by a linear vector with 23 genes. The first gene represents the name of individual. The second gene presents the  algorithm (Genetic Algorithm, Simulated Annealing or Tabu Search) used by the individual. The third gene represents the type of test (Load, Stress or Performance). Next genes represent 10 scenarios and their numbers of users. Each scenario is an atomic operation, the scenario must log in the application, run the task goal and undo any changes performed, returning the application to it's original state. 
+
+The Fig. \ref{fig:genomarepresentation} presents the genome representation and  a example using the crossover operation. In the example, the genotype 1 has the Login scenario with 2 users; the Form scenario with 0 users and the Search scenario with 3 users. The genotype 2 has the Delete scenario with 10 users; the Search scenario with 0 users and the Include scenario with 5 users. After the crossover operation, We obtain a genotype with  Login scenario with 2 users; the Search scenario with 0 users and the Include scenario with 5 users.
+
+\begin{figure}[h]
+\caption{Genotype representation and crossover example}
+\includegraphics[width=0.5\textwidth]{./images/genomerepresentation.png}
+\label{fig:genomarepresentation}
+\end{figure}
+
+
+\subsubsection{Objective (Fitnesse) Function}
+
+The IAdapter is a tool to be used with the independent testing teams in various situations where the team has no direct access to the environment where the application under test was installed. Therefore,  The IAdapter uses a measurement approach to the definition of the fitnesse function. The fitnesse function applied to IAdapter solution is governed by the following equation:
+
+\begin{equation}
+\begin{aligned}
+fit=90percentileweigth* 90percentiletime\\
++80percentileweigth*80percentiletime\\+
+70percentileweigth*70percentiletime+\\
+maxResponseWeigth*maxResponseTime+\\
+numberOfUsersWeigth*numberOfUsers-penalty
+\end{aligned}
+\end{equation}
+
+The IAdapter's fitnesse function uses a series of adaptable User-defined weights. These weights make it possible to customize the search plugin funcionality. The penalty is applied when a application under test responds responds in a longer time than the level of service.
+
+\subsubsection{Tabu Search and Simulated Annealing algorithms }
+
+The Fig. \ref{fig:neighbourtaby} shows the strategy used by IAdapter to obtain the neighbours in the Tabu Search and Simulated Annealing algorithms.  The neighbours are obtained by the modification of a single cromossome (scenario or  number of users) in the genotype.
+
+\begin{figure}
+\caption{Tabu Search and Simulated Annealing neighbour strategy}
+\includegraphics[width=0.5\textwidth]{./images/TabuNE.png}
+\label{fig:neighbourtaby}
+\end{figure}
+
+The IAdapter uses a tabu list of fixed size and expires every two generations. In the Simulated Annealing algorithm, the temperature variable is represented by the number of users.
+
+
+\subsection{IAdapter Components}
+
+The JMeter have components organized  in a hierarchical manner. The IAdapter plugin provides three main components:
+
+\begin{itemize}
+\item WorkLoadThreadGroup;
+\item WorkLoadSaver; and
+\item WorkLoadController.
+\end{itemize}
+ 
+The WorkLoadThreadGroup is a component that creates an initial population and configure the algorithms used in IAdapter . The Fig. \ref{fig:tela1iadapter} presents the main screen of the WorkLoadThreadGroup component. The component has a name (Fig. \ref{fig:tela1iadapter} -1), a set of configuration tabs (Fig. \ref{fig:tela1iadapter} -2), a list of individuals by generation (Fig. \ref{fig:tela1iadapter} -3), a button to generate an initial population (Fig. \ref{fig:tela1iadapter} -4) and a button to export the results (Fig. \ref{fig:tela1iadapter} -5).
+
+\begin{figure}[h]
+\caption{WorkLoadThreadGroup component}
+\includegraphics[width=0.5\textwidth]{./images/tela1iadapter.png}
+\label{fig:tela1iadapter}
+\end{figure}
+
+The WorkLoadSaver component is responsible for saving all data in the database. The operation of the component is simple and only requires its inclusion in the test script. The WorkLoadController represents a scenario of test. The WorkLoadController represents a scenario of test. All actions necessary to test a application should be included in this component. All instance of the component need to login in the application under test and return the application to it's original state.
