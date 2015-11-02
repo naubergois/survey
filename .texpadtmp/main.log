@@ -1,0 +1,1278 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  2 NOV 2015 19:17
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/elsarticle/elsarticle.cls
+Document Class: elsarticle 2009/09/17, 1.2.0: Elsevier Ltd
+\@bls=\dimen102
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\c@tnote=\count88
+\c@fnote=\count89
+\c@cnote=\count90
+\c@ead=\count91
+\c@author=\count92
+\@eadauthor=\toks15
+\c@affn=\count93
+\absbox=\box26
+\keybox=\box27
+\Columnwidth=\dimen106
+\space@left=\dimen107
+\els@boxa=\box28
+\els@boxb=\box29
+\leftMargin=\dimen108
+\@enLab=\toks16
+\@sep=\skip43
+\@@sep=\skip44
+
+(/Users/naubergois/survey/.texpadtmp/main.spl)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count94
+)
+\splwrite=\write3
+\openout3 = `main.spl'.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count95
+\Gm@cntv=\count96
+\c@Gm@tempcnt=\count97
+\Gm@bindingoffset=\dimen109
+\Gm@wd@mp=\dimen110
+\Gm@odd@mp=\dimen111
+\Gm@even@mp=\dimen112
+\Gm@layoutwidth=\dimen113
+\Gm@layoutheight=\dimen114
+\Gm@layouthoffset=\dimen115
+\Gm@layoutvoffset=\dimen116
+\Gm@dimlist=\toks17
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
+\mathindent=\dimen117
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/txfonts.sty
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+\symAMSa=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Info: Redefining \not on input line 1043.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks18
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 49.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/txsya/m/n --> U/msa/m/n on input line 49.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/bx/n --> U/msa/m/n on input line 49.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 50.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/txsyb/m/n --> U/msb/m/n on input line 50.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/bx/n --> U/msb/m/n on input line 50.
+LaTeX Font Info:    Redeclaring math delimiter \ulcorner on input line 64.
+LaTeX Font Info:    Redeclaring math delimiter \urcorner on input line 65.
+LaTeX Font Info:    Redeclaring math delimiter \llcorner on input line 66.
+LaTeX Font Info:    Redeclaring math delimiter \lrcorner on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 95.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 128.
+LaTeX Font Info:    Redeclaring math symbol \lozenge on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \vartriangleright on input line 130
+.
+LaTeX Font Info:    Redeclaring math symbol \vartriangleleft on input line 131.
+
+LaTeX Font Info:    Redeclaring math symbol \trianglerighteq on input line 132.
+
+LaTeX Font Info:    Redeclaring math symbol \trianglelefteq on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \rightsquigarrow on input line 134.
+
+)
+LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \boxtimes on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \centerdot on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \blacklozenge on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 47.
+
+LaTeX Font Info:    Redeclaring math symbol \circlearrowleft on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 51
+.
+LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \twoheadrightarrow on input line 56
+.
+LaTeX Font Info:    Redeclaring math symbol \twoheadleftarrow on input line 57.
+
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 59.
+
+LaTeX Font Info:    Redeclaring math symbol \upuparrows on input line 60.
+LaTeX Font Info:    Redeclaring math symbol \downdownarrows on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \upharpoonright on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 64.
+
+LaTeX Font Info:    Redeclaring math symbol \upharpoonleft on input line 65.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonleft on input line 66.
+LaTeX Font Info:    Redeclaring math symbol \rightarrowtail on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \leftarrowtail on input line 68.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrows on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \rightleftarrows on input line 70.
+LaTeX Font Info:    Redeclaring math symbol \Lsh on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \Rsh on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 
+74.
+LaTeX Font Info:    Redeclaring math symbol \looparrowleft on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \looparrowright on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \circeq on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \succsim on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \gtrsim on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \gtrapprox on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \multimap on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \therefore on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \because on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \doteqdot on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \triangleq on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \precsim on input line 87.
+LaTeX Font Info:    Redeclaring math symbol \lesssim on input line 88.
+LaTeX Font Info:    Redeclaring math symbol \lessapprox on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \eqslantless on input line 90.
+LaTeX Font Info:    Redeclaring math symbol \eqslantgtr on input line 91.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqprec on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqsucc on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \preccurlyeq on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \leqq on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \lessgtr on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \backprime on input line 98.
+LaTeX Font Info:    Redeclaring math symbol \risingdotseq on input line 99.
+LaTeX Font Info:    Redeclaring math symbol \fallingdotseq on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \succcurlyeq on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \geqq on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \bigstar on input line 112.
+LaTeX Font Info:    Redeclaring math symbol \between on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 11
+4.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
+15.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 11
+6.
+LaTeX Font Info:    Redeclaring math symbol \vartriangle on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangle on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \triangledown on input line 119.
+LaTeX Font Info:    Redeclaring math symbol \eqcirc on input line 120.
+LaTeX Font Info:    Redeclaring math symbol \lesseqgtr on input line 121.
+LaTeX Font Info:    Redeclaring math symbol \gtreqless on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \lesseqqgtr on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \gtreqqless on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \Rrightarrow on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \Lleftarrow on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \veebar on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \barwedge on input line 128.
+LaTeX Font Info:    Redeclaring math symbol \doublebarwedge on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \measuredangle on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \sphericalangle on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \varpropto on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \smallsmile on input line 135.
+LaTeX Font Info:    Redeclaring math symbol \smallfrown on input line 136.
+LaTeX Font Info:    Redeclaring math symbol \Subset on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Supset on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Cup on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \Cap on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 143.
+LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 144.
+LaTeX Font Info:    Redeclaring math symbol \leftthreetimes on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \rightthreetimes on input line 146.
+
+LaTeX Font Info:    Redeclaring math symbol \subseteqq on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \supseteqq on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \bumpeq on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \Bumpeq on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \lll on input line 151.
+LaTeX Font Info:    Redeclaring math symbol \ggg on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \circledS on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \pitchfork on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \dotplus on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \backsim on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \backsimeq on input line 159.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 160.
+LaTeX Font Info:    Redeclaring math symbol \intercal on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \circledcirc on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \circledast on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \circleddash on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \lvertneqq on input line 166.
+LaTeX Font Info:    Redeclaring math symbol \gvertneqq on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \nleq on input line 168.
+LaTeX Font Info:    Redeclaring math symbol \ngeq on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \nless on input line 170.
+LaTeX Font Info:    Redeclaring math symbol \ngtr on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \nprec on input line 172.
+LaTeX Font Info:    Redeclaring math symbol \nsucc on input line 173.
+LaTeX Font Info:    Redeclaring math symbol \lneqq on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \gneqq on input line 175.
+LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 176.
+LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \lneq on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \gneq on input line 179.
+LaTeX Font Info:    Redeclaring math symbol \npreceq on input line 180.
+LaTeX Font Info:    Redeclaring math symbol \nsucceq on input line 181.
+LaTeX Font Info:    Redeclaring math symbol \precnsim on input line 182.
+LaTeX Font Info:    Redeclaring math symbol \succnsim on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \lnsim on input line 184.
+LaTeX Font Info:    Redeclaring math symbol \gnsim on input line 185.
+LaTeX Font Info:    Redeclaring math symbol \nleqq on input line 186.
+LaTeX Font Info:    Redeclaring math symbol \ngeqq on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \precneqq on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \succneqq on input line 189.
+LaTeX Font Info:    Redeclaring math symbol \precnapprox on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \succnapprox on input line 191.
+LaTeX Font Info:    Redeclaring math symbol \lnapprox on input line 192.
+LaTeX Font Info:    Redeclaring math symbol \gnapprox on input line 193.
+LaTeX Font Info:    Redeclaring math symbol \nsim on input line 194.
+LaTeX Font Info:    Redeclaring math symbol \ncong on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \diagup on input line 196.
+LaTeX Font Info:    Redeclaring math symbol \diagdown on input line 197.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneq on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteqq on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteqq on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \supsetneqq on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneqq on input line 204.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneqq on input line 205.
+LaTeX Font Info:    Redeclaring math symbol \subsetneq on input line 206.
+LaTeX Font Info:    Redeclaring math symbol \supsetneq on input line 207.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteq on input line 208.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteq on input line 209.
+LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 210.
+LaTeX Font Info:    Redeclaring math symbol \nmid on input line 211.
+LaTeX Font Info:    Redeclaring math symbol \nshortmid on input line 212.
+LaTeX Font Info:    Redeclaring math symbol \nshortparallel on input line 213.
+LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 214.
+LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 215.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 218
+.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 219.
+
+LaTeX Font Info:    Redeclaring math symbol \ntriangleleft on input line 220.
+LaTeX Font Info:    Redeclaring math symbol \ntriangleright on input line 221.
+LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 222.
+LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 223.
+LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 224.
+LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 225.
+LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 226.
+
+LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 227.
+
+LaTeX Font Info:    Redeclaring math symbol \divideontimes on input line 228.
+LaTeX Font Info:    Redeclaring math symbol \varnothing on input line 229.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 230.
+LaTeX Font Info:    Redeclaring math symbol \Finv on input line 231.
+LaTeX Font Info:    Redeclaring math symbol \Game on input line 232.
+LaTeX Font Info:    Redeclaring math symbol \eth on input line 235.
+LaTeX Font Info:    Redeclaring math symbol \eqsim on input line 236.
+LaTeX Font Info:    Redeclaring math symbol \beth on input line 237.
+LaTeX Font Info:    Redeclaring math symbol \gimel on input line 238.
+LaTeX Font Info:    Redeclaring math symbol \daleth on input line 239.
+LaTeX Font Info:    Redeclaring math symbol \lessdot on input line 240.
+LaTeX Font Info:    Redeclaring math symbol \gtrdot on input line 241.
+LaTeX Font Info:    Redeclaring math symbol \ltimes on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \rtimes on input line 243.
+LaTeX Font Info:    Redeclaring math symbol \shortmid on input line 244.
+LaTeX Font Info:    Redeclaring math symbol \shortparallel on input line 245.
+LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \thicksim on input line 247.
+LaTeX Font Info:    Redeclaring math symbol \thickapprox on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \approxeq on input line 249.
+LaTeX Font Info:    Redeclaring math symbol \succapprox on input line 250.
+LaTeX Font Info:    Redeclaring math symbol \precapprox on input line 251.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 253.
+
+LaTeX Font Info:    Redeclaring math symbol \digamma on input line 254.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 255.
+LaTeX Font Info:    Redeclaring math symbol \Bbbk on input line 256.
+LaTeX Font Info:    Redeclaring math symbol \hslash on input line 257.
+LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 260.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count98
+\output=\toks19
+\linenoprevgraf=\count99
+\linenumbersep=\dimen118
+\linenumberwidth=\dimen119
+\c@linenumber=\count100
+\c@pagewiselinenumber=\count101
+\c@LN@truepage=\count102
+\c@internallinenumber=\count103
+\c@internallinenumbers=\count104
+\quotelinenumbersep=\dimen120
+\bframerule=\dimen121
+\bframesep=\dimen122
+\bframebox=\box30
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/import/import.sty
+Package: import 2009/03/23  v 5.1
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks20
+\ex@=\dimen123
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen124
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count105
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count106
+\leftroot@=\count107
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count108
+\DOTSCASE@=\count109
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box31
+\strutbox@=\box32
+\big@size=\dimen125
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count110
+\c@MaxMatrixCols=\count111
+\dotsspace@=\muskip10
+\c@parentequation=\count112
+\dspbrk@lvl=\count113
+\tag@help=\toks21
+\row@=\count114
+\column@=\count115
+\maxfields@=\count116
+\andhelp@=\toks22
+\eqnshift@=\dimen126
+\alignsep@=\dimen127
+\tagshift@=\dimen128
+\tagwidth@=\dimen129
+\totwidth@=\dimen130
+\lineht@=\dimen131
+\@envbody=\toks23
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen132
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
+\XKV@depth=\count117
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box33
+)
+\tc@llx=\dimen133
+\tc@lly=\dimen134
+\tc@urx=\dimen135
+\tc@ury=\dimen136
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen137
+\adjbox@Height=\dimen138
+\adjbox@Depth=\dimen139
+\adjbox@Totalheight=\dimen140
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
+\c@checkoddpage=\count118
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box34
+\sift@deathcycles=\count119
+\@vwid@loff=\dimen141
+\@vwid@roff=\dimen142
+))
+(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count120
+\U@D=\dimen143
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count121
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count122
+
+
+Package multicol Warning: May not work with the twocolumn option on input line 
+135.
+
+\mult@box=\box35
+\multicol@leftmargin=\dimen144
+\c@unbalance=\count123
+\c@collectmore=\count124
+\doublecol@number=\count125
+\multicoltolerance=\count126
+\multicolpretolerance=\count127
+\full@width=\dimen145
+\page@free=\dimen146
+\premulticols=\dimen147
+\postmulticols=\dimen148
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box36
+\last@line=\box37
+\mult@rightbox=\box38
+\mult@grightbox=\box39
+\mult@gfirstbox=\box40
+\mult@firstbox=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\c@columnbadness=\count128
+\c@finalcolumnbadness=\count129
+\last@try=\dimen149
+\multicolovershoot=\dimen150
+\multicolundershoot=\dimen151
+\mult@nat@firstbox=\box59
+\colbreak@box=\box60
+\multicol@sort@counter=\count130
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count131
+\lst@gtempboxa=\box61
+\lst@token=\toks27
+\lst@length=\count132
+\lst@currlwidth=\dimen152
+\lst@column=\count133
+\lst@pos=\count134
+\lst@lostspace=\dimen153
+\lst@width=\dimen154
+\lst@newlines=\count135
+\lst@lineno=\count136
+\lst@maxwidth=\dimen155
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count137
+\lst@skipnumbers=\count138
+\lst@framebox=\box62
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen156
+\captionmargin@=\dimen157
+\captionwidth=\dimen158
+\caption@indent=\dimen159
+\caption@parindent=\dimen160
+\caption@hangindent=\dimen161
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionski
+p \footnotesize \sbox \@tempboxa {#1: #2}\ifdim \wd \@tempboxa >\hsize #1: #2\p
+ar \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tempboxa \hfil }\
+fi \vskip \belowcaptionskip .
+\c@ContinuedFloat=\count139
+Package caption Info: listings package is loaded.
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count140
+\calc@Bcount=\count141
+\calc@Adimen=\dimen162
+\calc@Bdimen=\dimen163
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count142
+\calc@Cskip=\skip54
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen164
+\extrarowheight=\dimen165
+\NC@list=\toks28
+\extratabsurround=\skip55
+\backup@length=\skip56
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/kantlipsum/kantlipsum.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3names.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
+Package: l3bootstrap 2011/12/29 v3110 L3 Experimental bootstrap code
+)
+Package: l3names 2012/03/04 v3494 L3 Experimental namespace for primitives
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count143
+)
+Package: expl3 2012/04/23 v3570 L3 Experimental code bundle wrapper
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3basics.sty
+Package: l3basics 2012/03/04 v3491 L3 Experimental basic definitions
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3expan.sty
+Package: l3expan 2012/02/26 v3460 L3 Experimental argument expansion
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3tl.sty
+Package: l3tl 2012/03/04 v3490 L3 Experimental token lists
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3seq.sty
+Package: l3seq 2012/03/04 v3490 L3 Experimental sequences and stacks
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3int.sty
+Package: l3int 2012/03/04 v3490 L3 Experimental integers
+\c_max_int=\count144
+\l_tmpa_int=\count145
+\l_tmpb_int=\count146
+\l_tmpc_int=\count147
+\g_tmpa_int=\count148
+\g_tmpb_int=\count149
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3quark.sty
+Package: l3quark 2012/02/12 v3384 L3 Experimental quarks
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3prg.sty
+Package: l3prg 2012/03/04 v3490 L3 Experimental control structures
+\g_prg_map_int=\count150
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3clist.sty
+Package: l3clist 2012/03/04 v3490 L3 Experimental comma separated lists
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3token.sty
+Package: l3token 2012/03/04 v3491 L3 Experimental token manipulation
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3prop.sty
+Package: l3prop 2012/03/04 v3490 L3 Experimental property lists
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3msg.sty
+Package: l3msg 2012/04/23 v3568 L3 Experimental messages
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3file.sty
+Package: l3file 2012/03/09 v3520 L3 Experimental file and I/O operations
+\l_iow_stream_int=\count151
+\l_iow_line_length_int=\count152
+\l_iow_target_length_int=\count153
+\l_iow_current_line_int=\count154
+\l_iow_current_word_int=\count155
+\l_iow_current_indentation_int=\count156
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3skip.sty
+Package: l3skip 2012/03/05 v3499 L3 Experimental dimensions and skips
+\l_tmpa_dim=\dimen166
+\l_tmpb_dim=\dimen167
+\l_tmpc_dim=\dimen168
+\g_tmpa_dim=\dimen169
+\g_tmpb_dim=\dimen170
+\l_tmpa_skip=\skip57
+\l_tmpb_skip=\skip58
+\l_tmpc_skip=\skip59
+\g_tmpa_skip=\skip60
+\g_tmpb_skip=\skip61
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3keys.sty
+Package: l3keys 2012/03/03 v3487 L3 Experimental key-value interfaces
+\g_keyval_level_int=\count157
+\l_keys_choice_int=\count158
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3fp.sty
+Package: l3fp 2012/03/04 v3490 L3 Experimental floating-point operations
+\c_one_million=\count159
+\c_one_hundred_million=\count160
+\c_five_hundred_million=\count161
+\c_one_thousand_million=\count162
+\c_fp_pi_by_four_decimal_int=\count163
+\c_fp_pi_by_four_extended_int=\count164
+\c_fp_pi_decimal_int=\count165
+\c_fp_pi_extended_int=\count166
+\c_fp_two_pi_decimal_int=\count167
+\c_fp_two_pi_extended_int=\count168
+\l_fp_count_int=\count169
+\l_fp_div_offset_int=\count170
+\l_fp_exp_integer_int=\count171
+\l_fp_exp_decimal_int=\count172
+\l_fp_exp_extended_int=\count173
+\l_fp_exp_exponent_int=\count174
+\l_fp_input_a_sign_int=\count175
+\l_fp_input_a_integer_int=\count176
+\l_fp_input_a_decimal_int=\count177
+\l_fp_input_a_exponent_int=\count178
+\l_fp_input_b_sign_int=\count179
+\l_fp_input_b_integer_int=\count180
+\l_fp_input_b_decimal_int=\count181
+\l_fp_input_b_exponent_int=\count182
+\l_fp_input_a_extended_int=\count183
+\l_fp_input_b_extended_int=\count184
+\l_fp_mul_a_i_int=\count185
+\l_fp_mul_a_ii_int=\count186
+\l_fp_mul_a_iii_int=\count187
+\l_fp_mul_a_iv_int=\count188
+\l_fp_mul_a_v_int=\count189
+\l_fp_mul_a_vi_int=\count190
+\l_fp_mul_b_i_int=\count191
+\l_fp_mul_b_ii_int=\count192
+\l_fp_mul_b_iii_int=\count193
+\l_fp_mul_b_iv_int=\count194
+\l_fp_mul_b_v_int=\count195
+\l_fp_mul_b_vi_int=\count196
+\l_fp_mul_output_int=\count197
+\l_fp_output_sign_int=\count198
+\l_fp_output_integer_int=\count199
+\l_fp_output_decimal_int=\count200
+\l_fp_output_exponent_int=\count201
+Normal \count register pool exhausted, switching to extended pool.
+\l_fp_output_extended_int=\count277
+\l_fp_round_position_int=\count278
+\l_fp_round_target_int=\count279
+\l_fp_split_sign_int=\count280
+\l_fp_internal_int=\count281
+\l_fp_trig_octant_int=\count282
+\l_fp_trig_sign_int=\count283
+\l_fp_trig_decimal_int=\count284
+\l_fp_trig_extended_int=\count285
+\l_fp_internal_dim=\dimen171
+\l_fp_internal_skip=\skip62
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3box.sty
+Package: l3box 2012/03/04 v3490 L3 Experimental boxes
+\l_tmpb_box=\box63
+\l_box_top_dim=\dimen172
+\l_box_bottom_dim=\dimen173
+\l_box_left_dim=\dimen174
+\l_box_right_dim=\dimen175
+\l_box_top_new_dim=\dimen176
+\l_box_bottom_new_dim=\dimen177
+\l_box_left_new_dim=\dimen178
+\l_box_right_new_dim=\dimen179
+\l_box_internal_box=\box64
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3coffins.sty
+Package: l3coffins 2012/03/03 v3482 L3 Experimental coffin code layer
+\l_coffin_internal_box=\box65
+\l_coffin_internal_dim=\dimen180
+\l_coffin_offset_x_dim=\dimen181
+\l_coffin_offset_y_dim=\dimen182
+\l_coffin_x_dim=\dimen183
+\l_coffin_y_dim=\dimen184
+\l_coffin_x_prime_dim=\dimen185
+\l_coffin_y_prime_dim=\dimen186
+\l_coffin_Depth_dim=\dimen187
+\l_coffin_Height_dim=\dimen188
+\l_coffin_TotalHeight_dim=\dimen189
+\l_coffin_Width_dim=\dimen190
+\c_empty_coffin=\box66
+\l_coffin_aligned_coffin=\box67
+\l_coffin_aligned_internal_coffin=\box68
+\l_coffin_bounding_shift_dim=\dimen191
+\l_coffin_left_corner_dim=\dimen192
+\l_coffin_right_corner_dim=\dimen193
+\l_coffin_bottom_corner_dim=\dimen194
+\l_coffin_top_corner_dim=\dimen195
+\l_coffin_scaled_total_height_dim=\dimen196
+\l_coffin_scaled_width_dim=\dimen197
+\l_coffin_display_coffin=\box69
+\l_coffin_display_coord_coffin=\box70
+\l_coffin_display_pole_coffin=\box71
+\l_coffin_display_offset_dim=\dimen198
+\l_coffin_display_x_dim=\dimen199
+\l_coffin_display_y_dim=\dimen200
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3color.sty
+Package: l3color 2011/09/07 v2776 L3 Experimental colour support
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3kernel/l3luatex.sty
+Package: l3luatex 2012/02/09 v3355 L3 Experimental LuaTeX-specific functions
+\g_cctab_allocate_int=\count286
+\g_cctab_stack_int=\count287
+))
+Package: kantlipsum 2011/12/23 v0.5 Dummy text in Kantian style
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2012/04/23 v3570 L3 Experimental document command parser
+\l_xparse_current_arg_int=\count288
+\l_xparse_m_args_int=\count289
+\l_xparse_mandatory_args_int=\count290
+\l_xparse_processor_int=\count291
+\l_xparse_v_nesting_int=\count292
+)
+\l_kgl_start_int=\count293
+\l_kgl_end_int=\count294
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \kant with arg. spec. 's>{\SplitArgument
+. {1}{-}}O{1-7}' on line 78.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \kantdef with arg. spec. 'mm' on line 91.
+.................................................
+.................................................
+. kantlipsum info: "how-many"
+. 
+. The package provides paragraphs 1 to 164. Values outside this range will be
+. ignored.
+.................................................
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks29
+\minrowclearance=\skip63
+)
+(/Users/naubergois/survey/.texpadtmp/main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 99.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 99.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/omltxmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 99.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 99.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/omstxsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 99.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 99.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/omxtxex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 99.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 99.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/utxexa.fd
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 99.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count295
+\scratchdimen=\dimen201
+\scratchbox=\box72
+\nofMPsegments=\count296
+\nofMParguments=\count297
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count298
+Normal \dimen register pool exhausted, switching to extended pool.
+\MPscratchDim=\dimen256
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
+\everyMPtoPDFconversion=\toks31
+) (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* hratio: 1:1
+* vratio: 1:1
+* modes: 
+* h-part:(L,W,R)=(64.75394pt, 468.0pt, 64.75394pt)
+* v-part:(T,H,B)=(111.52342pt, 622.0pt, 111.52342pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=468.0pt
+* \textheight=622.0pt
+* \oddsidemargin=-7.51605pt
+* \evensidemargin=-7.51605pt
+* \topmargin=-22.74657pt
+* \headheight=50.0pt
+* \headsep=12.0pt
+* \topskip=10.0pt
+* \footskip=18.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=24.0pt
+* \skip\footins=24.0pt plus 2.0pt minus 12.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count301
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+(./texfiles/abstract.tex)
+LaTeX Font Info:    Try loading font information for U+txmia on input line 157.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 157.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 157.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 157.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+Missing character: There is no Ã in font txi!
+Missing character: There is no § in font txi!
+
+(./texfiles/planning.tex [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/
+updmap/pdftex.map}
+
+
+]
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 54.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/omstxr.fd
+File: omstxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 54.
+)
+(./texfiles/loadtest.tex [2]
+<./images/workloadmodel1.png, id=14, 477.785pt x 432.60835pt>
+File: ./images/workloadmodel1.png Graphic file (type png)
+
+<use ./images/workloadmodel1.png>
+Package pdftex.def Info: ./images/workloadmodel1.png used on input line 44.
+(pdftex.def)             Requested size: 234.0pt x 211.87433pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 44--45
+ [][] 
+ []
+
+<./images/workloadmodel2.png, id=16, 475.76169pt x 432.60835pt>
+File: ./images/workloadmodel2.png Graphic file (type png)
+
+<use ./images/workloadmodel2.png>
+Package pdftex.def Info: ./images/workloadmodel2.png used on input line 56.
+(pdftex.def)             Requested size: 234.0pt x 212.77867pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 56--57
+ [][] 
+ []
+
+) (./texfiles/mapresults.tex) (./texfiles/cloud.tex [3 <./images/workloadmodel1
+.png>] <./images/SurveyFiguraCloud3.png, id=21, 548.00008pt x 1117.15004pt>
+File: ./images/SurveyFiguraCloud3.png Graphic file (type png)
+
+<use ./images/SurveyFiguraCloud3.png>
+Package pdftex.def Info: ./images/SurveyFiguraCloud3.png used on input line 18.
+
+(pdftex.def)             Requested size: 234.0pt x 477.04112pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 18--19
+ [][] 
+ []
+
+
+Package natbib Warning: Citation `Snellman2011' on page 4 undefined on input li
+ne 40.
+
+[4 <./images/workloadmodel2.png> <./images/SurveyFiguraCloud3.png>])
+(./texfiles/evolutionary.tex
+Underfull \hbox (badness 2529) in paragraph at lines 44--1
+\OT1/txr/m/n/10 large scale dis-tributed ex-per-i-ment stud-ies in IaaS
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 1--1
+[]\OT1/txr/bx/n/10 Evolutionary Test in Load, Per-for-mance and
+ []
+
+<./images/comparativo1.png, id=27, 705.62834pt x 540.98174pt>
+File: ./images/comparativo1.png Graphic file (type png)
+
+<use ./images/comparativo1.png>
+Package pdftex.def Info: ./images/comparativo1.png used on input line 19.
+(pdftex.def)             Requested size: 234.0pt x 179.39952pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 19--21
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./texfiles/workloadnalysis.tex)
+(/Users/naubergois/survey/.texpadtmp/main.bbl
+Underfull \vbox (badness 6625) has occurred while \output is active []
+
+ [5 <./images/comparativo1.png>])
+
+Package natbib Warning: There were undefined citations.
+
+
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 93.
+See the caption package documentation for explanation.
+
+[6
+
+] (/Users/naubergois/survey/.texpadtmp/main.aux) ) 
+Here is how much of TeX's memory you used:
+ 13453 strings out of 493488
+ 211909 string characters out of 3141326
+ 711761 words of memory out of 3000000
+ 16440 multiletter control sequences out of 15000+200000
+ 32640 words of font info for 84 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 53i,6n,92p,869b,357s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2012/texm
+f-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2012/texmf-dist/fonts/ty
+pe1/public/txfonts/rtxr.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pub
+lic/txfonts/txsy.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/
+utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/naubergois/survey/.texpadtmp/main.pdf (6 pages, 155557
+07 bytes).
+PDF statistics:
+ 53 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+

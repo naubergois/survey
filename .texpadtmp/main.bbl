@@ -1,0 +1,115 @@
+\begin{thebibliography}{16}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Biolchini et~al.(2005)Biolchini, Mian, Candida, and
+  Natali}]{Biolchini2005}
+\bibinfo{author}{J.~Biolchini}, \bibinfo{author}{P.~G. Mian},
+  \bibinfo{author}{A.~Candida}, \bibinfo{author}{C.~Natali},
+\newblock \bibinfo{title}{{Systematic Review in Software Engineering}},
+\newblock \bibinfo{journal}{System Engineering and Computer Science Department
+  COPPE/UFRJ, Technical Report ES} \bibinfo{volume}{679} (\bibinfo{year}{2005})
+  \bibinfo{pages}{165--176}.
+%Type = Article
+\bibitem[{Afz(2009)}]{Afzal2009}
+\bibinfo{title}{{A systematic review of search-based testing for non-functional
+  system properties}},
+\newblock \bibinfo{journal}{Information and Software Technology}
+  \bibinfo{volume}{51} (\bibinfo{year}{2009}) \bibinfo{pages}{957--976}.
+%Type = Article
+\bibitem[{Kitchenham and Charters(2007)}]{Kitchenham2007}
+\bibinfo{author}{B.~Kitchenham}, \bibinfo{author}{S.~Charters},
+\newblock \bibinfo{title}{{Guidelines for performing Systematic Literature
+  Reviews in Software Engineering}},
+\newblock \bibinfo{journal}{Engineering} \bibinfo{volume}{2}
+  (\bibinfo{year}{2007}) \bibinfo{pages}{1051}.
+%Type = Article
+\bibitem[{Jamshidi et~al.(2013)Jamshidi, Ahmad, and Pahl}]{Jamshidi2013}
+\bibinfo{author}{P.~Jamshidi}, \bibinfo{author}{A.~Ahmad},
+  \bibinfo{author}{C.~Pahl},
+\newblock \bibinfo{title}{{Cloud Migration Research: A Systematic Review}},
+\newblock \bibinfo{journal}{IEEE Transactions on Cloud Computing}
+  \bibinfo{volume}{1} (\bibinfo{year}{2013}) \bibinfo{pages}{142--157}.
+%Type = Book
+\bibitem[{Feitelson(2013)}]{Feitelson2013}
+\bibinfo{author}{D.~G. Feitelson}, \bibinfo{title}{{Workload Modeling for
+  Computer Systems Performance Evaluation}}, \bibinfo{publisher}{Cambridge
+  University Press}, \bibinfo{year}{2013}.
+%Type = Book
+\bibitem[{Molyneaux(2009)}]{Molyneaux2009}
+\bibinfo{author}{I.~Molyneaux}, \bibinfo{title}{{The Art of Application
+  Performance Testing}}, \bibinfo{publisher}{"O'Reilly Media, Inc."},
+  \bibinfo{year}{2009}.
+%Type = Article
+\bibitem[{Gon\c{c}alves(2014)}]{Goncalves2014}
+\bibinfo{author}{M.~C. Gon\c{c}alves},
+\newblock \bibinfo{title}{{Um Processo de Infer\^{e}ncia de Desempenho para
+  Apoiar o Planejamento da Capacidade de Aplica\c{c}\~{o}es na Nuvem Um
+  Processo de Infer\^{e}ncia de Desempenho para Apoiar o Planejamento da
+  Capacidade de Aplica\c{c}\~{o}es na Nuvem}}  (\bibinfo{year}{2014}).
+%Type = Article
+\bibitem[{{Di Lucca} and Fasolino(2006)}]{DiLucca2006}
+\bibinfo{author}{G.~a. {Di Lucca}}, \bibinfo{author}{A.~R. Fasolino},
+\newblock \bibinfo{title}{{Testing Web-based applications: The state of the art
+  and future trends}},
+\newblock \bibinfo{journal}{Information and Software Technology}
+  \bibinfo{volume}{48} (\bibinfo{year}{2006}) \bibinfo{pages}{1172--1186}.
+%Type = Article
+\bibitem[{Sandler et~al.(2004)Sandler, Badgett, and Thomas}]{Sandler2004}
+\bibinfo{author}{C.~Sandler}, \bibinfo{author}{T.~Badgett},
+  \bibinfo{author}{T.~Thomas},
+\newblock \bibinfo{title}{{The Art of Software Testing}}
+  (\bibinfo{year}{2004}) \bibinfo{pages}{200}.
+%Type = Article
+\bibitem[{Jia et~al.(2015)Jia, Cai, Yu, and Tse}]{Jia2015}
+\bibinfo{author}{C.~Jia}, \bibinfo{author}{Y.~Cai}, \bibinfo{author}{Y.~T. Yu},
+  \bibinfo{author}{T.~Tse},
+\newblock \bibinfo{title}{{5W+1H pattern: A perspective of systematic mapping
+  studies and a case study on cloud software testing}},
+\newblock \bibinfo{journal}{Journal of Systems and Software}
+  \bibinfo{volume}{000} (\bibinfo{year}{2015}) \bibinfo{pages}{1--14}.
+%Type = Article
+\bibitem[{Gao et~al.(2011)Gao, Pattabhiraman, Bai, and Tsai}]{Gao2011}
+\bibinfo{author}{J.~Gao}, \bibinfo{author}{P.~Pattabhiraman},
+  \bibinfo{author}{X.~Bai}, \bibinfo{author}{W.~T. Tsai},
+\newblock \bibinfo{title}{{SaaS performance and scalability evaluation in
+  clouds}},
+\newblock \bibinfo{journal}{Proceedings - 6th IEEE International Symposium on
+  Service-Oriented System Engineering, SOSE 2011}  (\bibinfo{year}{2011})
+  \bibinfo{pages}{61--71}.
+%Type = Article
+\bibitem[{Sullivan et~al.(????)Sullivan, V\"{o}ssner, Wegener, and
+  Ag}]{Sullivan}
+\bibinfo{author}{M.~O. Sullivan}, \bibinfo{author}{S.~V\"{o}ssner},
+  \bibinfo{author}{J.~Wegener}, \bibinfo{author}{D.-b. Ag},
+\newblock \bibinfo{title}{{Testing Temporal Correctness of Real-Time Systems
+  --- A New Approach Using Genetic Algorithms and Cluster Analysis ---}}
+  (????) \bibinfo{pages}{1--20}.
+%Type = Article
+\bibitem[{Afzal et~al.(2009)Afzal, Torkar, and Feldt}]{Afzal2009a}
+\bibinfo{author}{W.~Afzal}, \bibinfo{author}{R.~Torkar},
+  \bibinfo{author}{R.~Feldt},
+\newblock \bibinfo{title}{{A systematic review of search-based testing for
+  non-functional system properties}},
+\newblock \bibinfo{journal}{Information and Software Technology}
+  \bibinfo{volume}{51} (\bibinfo{year}{2009}) \bibinfo{pages}{957--976}.
+%Type = Phdthesis
+\bibitem[{Tracey(2000)}]{tracey2000search}
+\bibinfo{author}{N.~J. Tracey}, \bibinfo{title}{A search-based automated
+  test-data generation framework for safety-critical software}, Ph.D. thesis,
+  Citeseer, \bibinfo{year}{2000}.
+%Type = Book
+\bibitem[{Garousi(2006)}]{Garousi2006}
+\bibinfo{author}{V.~Garousi}, \bibinfo{title}{{Traffic-aware Stress Testing of
+  Distributed Real-Time Systems based on UML Models using Genetic Algorithms}},
+  \bibinfo{number}{August}, \bibinfo{year}{2006}.
+%Type = Article
+\bibitem[{Garousi(2010)}]{Garousi2010}
+\bibinfo{author}{V.~Garousi},
+\newblock \bibinfo{title}{{A Genetic Algorithm-Based Stress Test Requirements
+  Generator Tool and Its Empirical Evaluation}},
+\newblock \bibinfo{journal}{IEEE Transactions on Software Engineering}
+  \bibinfo{volume}{36} (\bibinfo{year}{2010}) \bibinfo{pages}{778--797}.
+
+\end{thebibliography}

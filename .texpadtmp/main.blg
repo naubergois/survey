@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: ../model1-num-names.bst
+Database file #1: ../sample.bib
+Repeated entry---line 618 of file ../sample.bib
+ : @article{Sandler2004
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 644 of file ../sample.bib
+ : @book{Molyneaux2009
+ :                    ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Snellman2011"
+Warning--to sort, need author or key in Afzal2009
+Warning--empty author in Afzal2009
+Warning--empty journal in Goncalves2014
+Warning--empty journal in Sandler2004
+Warning--empty journal in Sullivan
+Warning--empty year in Sullivan; set to ????
+You've used 16 entries,
+            2616 wiz_defined-function locations,
+            681 strings with 7198 characters,
+and the built_in function-call counts, 8339 in all, are:
+= -- 650
+> -- 319
+< -- 8
++ -- 123
+- -- 105
+* -- 989
+:= -- 1303
+add.period$ -- 16
+call.type$ -- 16
+change.case$ -- 111
+chr.to.int$ -- 16
+cite$ -- 24
+duplicate$ -- 533
+empty$ -- 562
+format.name$ -- 142
+if$ -- 1493
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 122
+newline$ -- 74
+num.names$ -- 60
+pop$ -- 127
+preamble$ -- 1
+purify$ -- 114
+quote$ -- 0
+skip$ -- 161
+stack$ -- 0
+substring$ -- 423
+swap$ -- 441
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 135
+warning$ -- 6
+while$ -- 65
+width$ -- 0
+write$ -- 198
+(There were 2 error messages)
